@@ -1,0 +1,42 @@
+/*
+ * D-DIN-PRO (SIL OFL 1.1, via @sarap422/font-d-din) — the typeface family
+ * spacex.com uses. Only the four weights the UI needs, woff2 only (every
+ * browser that runs WebGL2 / CesiumJS supports woff2).
+ *
+ * Note: the webfont covers printable ASCII only (U+0020-007E) and has
+ * proportional figures without a `tnum` feature. Non-ASCII glyphs (° · × —)
+ * fall back to the next family in --sx-font; jitter-free numbers are done
+ * with per-digit cells in TS (TabularText in src/ui/infoPanel.ts).
+ */
+
+@font-face {
+  font-family: 'D-DIN-PRO';
+  src: url('../../node_modules/@sarap422/font-d-din/D-DIN-PRO-400-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'D-DIN-PRO';
+  src: url('../../node_modules/@sarap422/font-d-din/D-DIN-PRO-500-Medium.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'D-DIN-PRO';
+  src: url('../../node_modules/@sarap422/font-d-din/D-DIN-PRO-600-SemiBold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'D-DIN-PRO';
+  src: url('../../node_modules/@sarap422/font-d-din/D-DIN-PRO-700-Bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}

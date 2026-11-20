@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "buildCommand": "npm run build && npm run snapshot",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/api/elements", "destination": "/data/elements.json" },
+    { "source": "/api/elements/status", "destination": "/data/elements-status.json" }
+  ]
+}

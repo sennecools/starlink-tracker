@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "credit": "NASA/Goddard Space Flight Center Scientific Visualization Studio; Gaia DR2: ESA/Gaia/DPAC",
+  "frame": "TEME axes ~ mean equator & equinox of `epoch` (IAU 1976 precession from ICRF/J2000); x->RA 0h, z->north pole",
+  "cube": {
+    "2k": {
+      "size": 2048,
+      "epoch": 2027,
+      "faces": [
+        "px",
+        "nx",
+        "py",
+        "ny",
+        "pz",
+        "nz"
+      ],
+      "path": "2k/",
+      "ext": "jpg",
+      "bytes": 1654983,
+      "faceBytes": {
+        "px": 81940,
+        "nx": 79915,
+        "py": 298722,
+        "ny": 412995,
+        "pz": 350039,
+        "nz": 431372
+      },
+      "hash": "0e2b389bbda3",
+      "inputKey": "72e1a9d31a8958be",
+      "source": "milkyway_2020_8k.exr",
+      "sourceMeanLum": 0.0066988,
+      "gain": 1.0023,
+      "tone": {
+        "referenceMeanLum": 0.006714,
+        "whiteBalanceStrength": 0.7,
+        "sourceMean": [
+          0.007422,
+          0.006582,
+          0.005864
+        ],
+        "blackPoint": 0.0042,
+        "toe": 0.006,
+        "exposure": 4.2,
+        "ceiling": 0.34,
+        "saturation": 0.55,
+        "dither": 1,
+        "ditherMin": 3,
+        "filterWidth": 1.7,
+        "pointSourceKeep": 0.1
+      }
+    },
+    "4k": {
+      "size": 4096,
+      "epoch": 2027,
+      "faces": [
+        "px",
+        "nx",
+        "py",
+        "ny",
+        "pz",
+        "nz"
+      ],
+      "path": "4k/",
+      "ext": "jpg",
+      "bytes": 8680197,
+      "faceBytes": {
+        "px": 457118,
+        "nx": 444396,
+        "py": 1489779,
+        "ny": 2051371,
+        "pz": 1897714,
+        "nz": 2339819
+      },
+      "hash": "fa4ae441ebde",
+      "inputKey": "56d916f9b38e44d8",
+      "source": "milkyway_2020_16k.exr",
+      "sourceMeanLum": 0.0016747,
+      "gain": 4.8911,
+      "tone": {
+        "referenceMeanLum": 0.006714,
+        "whiteBalanceStrength": 0.7,
+        "sourceMean": [
+          0.007422,
+          0.006582,
+          0.005864
+        ],
+        "blackPoint": 0.0042,
+        "toe": 0.006,
+        "exposure": 4.2,
+        "ceiling": 0.34,
+        "saturation": 0.55,
+        "dither": 1,
+        "ditherMin": 3,
+        "filterWidth": 1.7,
+        "pointSourceKeep": 0.1
+      }
+    }
+  },
+  "stars": {
+    "file": "stars.bin",
+    "count": 41411,
+    "stride": 5,
+    "layout": "float32le x,y,z,mag,bv",
+    "bytes": 828220,
+    "epoch": 2027,
+    "magLimit": 8,
+    "magRange": [
+      -1.44,
+      8
+    ],
+    "missingBv": 52,
+    "hash": "71374518f113",
+    "credit": "Stars: ESA Hipparcos catalogue via d3-celestial (BSD-3-Clause)"
+  }
+}
